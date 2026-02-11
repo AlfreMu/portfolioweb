@@ -28,7 +28,7 @@ const technicalGroups = [
   },
   {
     category: "Control de versiones",
-    skills: ["Git", "GitHub"],
+    skills: ["Git (GitHub)"],
   },
   {
     category: "Scripting",
@@ -42,7 +42,7 @@ const technicalGroups = [
 
 const softSkills = [
   "Metodolog\u00edas \u00c1giles (Scrum)",
-  "Aprendizaje Continuo",
+  "Aprendizaje autodidacta",
   "Documentaci\u00f3n T\u00e9cnica",
   "Resoluci\u00f3n de Problemas",
 ];
