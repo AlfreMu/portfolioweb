@@ -15,9 +15,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Gonzalo Alfredo Muniz | DevOps & Cloud Jr.",
+  title: "Alfre Muñiz | DevOps Jr.",
   description:
-    "Portafolio de Ingeniero Junior en DevOps y Cloud — CI/CD, Infraestructura como Codigo, Kubernetes y observabilidad.",
+    "Portafolio de DevOps Jr. — CI/CD, Docker, IaC, Kubernetes y Observabilidad.",
 };
 
 export const viewport: Viewport = {
