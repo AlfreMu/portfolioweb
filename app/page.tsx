@@ -1,6 +1,5 @@
 import { Navbar } from "@/components/navbar";
 import { Hero } from "@/components/hero";
-import { Highlights } from "@/components/highlights";
 import { About } from "@/components/about";
 import { Projects } from "@/components/projects";
 import { Trayectoria } from "@/components/trayectoria";
@@ -14,7 +13,6 @@ export default function Page() {
     <main>
       <Navbar />
       <Hero />
-      <Highlights />
       <About />
       <Projects />
       <Trayectoria />
@@ -22,7 +20,6 @@ export default function Page() {
       <Certificaciones />
       <Contact />
       <Footer />
-
     </main>
   );
 }

@@ -1,9 +1,9 @@
-import { Folder, Cloud, LayoutDashboard } from "lucide-react";
+import { FolderGit2, Globe, Workflow } from "lucide-react";
 
 const stats = [
-  { icon: Folder, value: "2", label: "Proyectos" },
-  { icon: Cloud, value: "2", label: "Deployments en nube" },
-  { icon: LayoutDashboard, value: "5+", label: "Monitoreo / dashboards" },
+  { icon: FolderGit2, value: "20", label: "Repos publicos" },
+  { icon: Globe, value: "5+", label: "Apps online" },
+  { icon: Workflow, value: "6", label: "Proyectos destacados" },
 ];
 
 export function About() {
@@ -18,10 +18,30 @@ export function About() {
         <div className="grid items-start gap-12 md:grid-cols-5">
           <div className="md:col-span-3">
             <p className="leading-relaxed text-muted-foreground">
-              {"Soy Gonzalo Alfredo Mu\u00f1iz (Alfre). Abogado graduado de la UBA (2023) reconvertido al mundo IT por pasi\u00f3n. En 2025 comenc\u00e9 la Tecnicatura Universitaria en Programaci\u00f3n en la UTN."}
+              {
+                "Soy Gonzalo Alfredo Mu\u00f1iz (Alfre), DevOps & Cloud Engineer de Argentina. Vengo de una formacion en Derecho, pero hoy enfoco mi carrera en construir sistemas que no solo funcionen: tambien puedan desplegarse, monitorearse y explicarse."
+              }
             </p>
             <p className="mt-4 leading-relaxed text-muted-foreground">
-              {"Mi inter\u00e9s por la infraestructura y la automatizaci\u00f3n se consolid\u00f3 en julio de 2025 durante la capacitaci\u00f3n pr\u00e1ctica en DevSecOps de "}
+              {
+                "En GitHub hoy conviven proyectos de automatizacion, cloud e infraestructura como codigo con productos web reales como "
+              }
+              <a
+                href="https://playpollgaming.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary underline underline-offset-2 transition-colors hover:text-primary/80"
+              >
+                PlayPoll
+              </a>
+              {
+                ", una app en tiempo real para votar que jugar con amigos. Ese cruce entre producto, deploy y operacion es el tipo de trabajo que mas me entusiasma."
+              }
+            </p>
+            <p className="mt-4 leading-relaxed text-muted-foreground">
+              {
+                "Mi interes por la infraestructura y la automatizacion se consolido durante la capacitacion practica en DevSecOps de "
+              }
               <a
                 href="https://novitsoftware.com"
                 target="_blank"
@@ -30,10 +50,14 @@ export function About() {
               >
                 Novit Software
               </a>
-              {", donde descubr\u00ed mi vocaci\u00f3n por la cultura DevOps."}
+              {
+                " junto a la UTN. Hoy sigo profundizando en CI/CD, contenedores, observabilidad y cloud mientras curso la Tecnicatura Universitaria en Programacion."
+              }
             </p>
             <p className="mt-4 leading-relaxed text-muted-foreground">
-              {"Actualmente sigo profundizando en tecnolog\u00edas Cloud y orquestaci\u00f3n de contenedores. Afuera de la terminal me pod\u00e9s encontrar jugando al f\u00fatbol o al p\u00e1del con amigos, leyendo alg\u00fan libro que me hayan recomendado o disfrutando de un buen videojuego para recargar energ\u00edas."}
+              {
+                "Me gusta trabajar en proyectos que puedan defenderse de punta a punta: desde la interfaz y la API hasta el pipeline, la infraestructura y el monitoreo. Afuera de la terminal, me podes encontrar jugando al futbol o al padel, leyendo algo que me hayan recomendado o disfrutando de un buen videojuego."
+              }
             </p>
           </div>
 

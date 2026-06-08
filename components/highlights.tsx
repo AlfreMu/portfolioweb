@@ -3,18 +3,18 @@ import { Workflow, Cloud, Boxes } from "lucide-react";
 const highlights = [
   {
     icon: Workflow,
-    title: "Automatizacion CI/CD",
-    desc: "Pipelines de build/test/push y despliegue con GitHub Actions y GitLab CI. Versionado de imagenes (GHCR) y deploy reproducible en entornos Linux.",
+    title: "CI/CD & Automatizacion",
+    desc: "Pipelines de build, test y deploy con GitHub Actions y Azure DevOps, pensados para flujos reproducibles, promociones entre ambientes y entregas mas confiables.",
   },
   {
     icon: Cloud,
-    title: "Infra & Observabilidad",
-    desc: "Infraestructura en AWS con Terraform (VPC/EC2/SG/IAM) y observabilidad con Prometheus + Grafana + exporters (Node Exporter/cAdvisor) para metricas, dashboards y alertas.",
+    title: "Infraestructura & Cloud",
+    desc: "Infraestructura como codigo con Terraform sobre AWS y Azure, mas observabilidad con Prometheus y Grafana para entender mejor el estado real de cada despliegue.",
   },
   {
     icon: Boxes,
-    title: "Contenedores & Orquestacion",
-    desc: "Contenerizacion con Docker y Docker Compose. Despliegues en Kubernetes (k3s) y troubleshooting basico de workloads, redes y puertos.",
+    title: "Apps & Despliegue",
+    desc: "Desarrollo de productos con Next.js, React, Tailwind, Supabase y Vercel, sin perder el foco en contenedores, despliegue y experiencia final de uso.",
   },
 ];
 
